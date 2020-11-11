@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background-image: url("1.jpg");
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<div class="header">
+  <h1>Gallery</h1>
+  <p>Our result from the very beggening</p>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="g1.jpg" style="width:100%">
+    <img src="g2.jpg" style="width:100%">
+    <img src="g3.jpg" style="width:100%">
+    <img src="g4.jpg" style="width:100%">
+    <img src="g5.jpg" style="width:100%">
+    <img src="g6.jpg" style="width:100%">
+    <img src="g7.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="g8.jpg" style="width:100%">
+    <img src="g9.jpg" style="width:100%">
+    <img src="g10.jpg" style="width:100%">
+    <img src="g11.jpg" style="width:100%">
+    <img src="g12.jpg" style="width:100%">
+    <img src="g13.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="g14.jpg" style="width:100%">
+    <img src="g15.jpg" style="width:100%">
+    <img src="g16.jpg" style="width:100%">
+    <img src="g17.jpg" style="width:100%">
+    <img src="g18.jpg" style="width:100%">
+    <img src="g19.jpg" style="width:100%">
+    <img src="g20.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="g21.jpg" style="width:100%">
+    <img src="g22.jpg" style="width:100%">
+    <img src="g23.jpg" style="width:100%">
+    <img src="g24.jpg" style="width:100%">
+    <img src="g25.jpg" style="width:100%">
+    <img src="g26.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
